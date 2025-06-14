@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -79,6 +78,14 @@
       color: #777;
     }
   </style>
+  <script>
+    const password = "tanyapakfajar";
+    const input = prompt("Masukkan password untuk mengakses halaman ini:");
+    if (input !== password) {
+      alert("Password salah. Anda akan diarahkan keluar.");
+      window.location.href = "https://www.google.com";
+    }
+  </script>
 </head>
 <body>
   <div class="container">
